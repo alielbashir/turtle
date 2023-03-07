@@ -6,6 +6,12 @@ def ucgen_ciz():
         kaplumbaga.forward(300)
         kaplumbaga.right(120)
 
+def kare_ciz():
+    kaplumbaga = turtle.Turtle()
+    for i in range(4):
+        kaplumbaga.forward(300)
+        kaplumbaga.right(90)
+
 
 ucgen_ciz()
 
